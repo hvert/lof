@@ -1,0 +1,36 @@
+@charset "utf-8";
+#form-settings {
+    padding-bottom: 10px;
+    padding-top: 0px;
+    vertical-align: top;
+    border-radius: 20px;
+    -webkit-box-shadow: inset 0px 0px 0px;
+    box-shadow: inset 0px 0px 0px;
+    background-origin: content-box;
+    background-clip: padding-box;
+    margin-bottom: 0px;
+    border-bottom: 5px solid white;
+}
+
+
+
+
+#Class-Observation {
+    margin-top: 10px;
+    border-bottom: 5px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#checklist {
+    padding-top: 0px;
+    border-bottom: 5px solid white;
+}
+#final-feedback {
+    margin-top: 10px;
+}
+#footer-lof {
+    padding-bottom: 5px;
+    background-color: #A40409;
+    margin-top: 100px;
+    padding-top: 5px;
+}
