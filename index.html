@@ -22,21 +22,35 @@
       </nav>
 
 <!--Tabs-->
-<div class="container fixed-bottom">
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-    <ul class="navbar-nav mx-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#tab1">Tab 1</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#tab2">Tab 2</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#tab3">Tab 3</a>
-      </li>
-    </ul>
-  </nav>
+<div class="container mt-5">
+  <ul class="nav nav-tabs justify-content-center" id="myTabs">
+    <li class="nav-item">
+      <a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#tab1">Tab 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="tab2-tab" data-toggle="tab" href="#tab2">Tab 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="tab3-tab" data-toggle="tab" href="#tab3">Tab 3</a>
+    </li>
+  </ul>
+
+  <div class="tab-content mt-2">
+    <div class="tab-pane fade show active" id="tab1">
+      <h2>Tab 1 Content</h2>
+      <p>This is the content for Tab 1.</p>
+    </div>
+    <div class="tab-pane fade" id="tab2">
+      <h2>Tab 2 Content</h2>
+      <p>This is the content for Tab 2.</p>
+    </div>
+    <div class="tab-pane fade" id="tab3">
+      <h2>Tab 3 Content</h2>
+      <p>This is the content for Tab 3.</p>
+    </div>
+  </div>
 </div>
+
 
 
      <div class="container-fluid" id="form-settings">
